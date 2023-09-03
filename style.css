@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+  margin: 17px 17px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header ul li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+.sign_in {
+  outline: none;
+  padding: 9px 24px;
+  cursor: pointer;
+  background-color: rgb(27, 102, 201);
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.1s all;
+}
+
+.sign_in:hover {
+  box-shadow: 0 0 5px #999;
+}
+
+.bars {
+  padding: 5px;
+  transition: 0.3s all;
+}
+
+.bars:hover {
+  background-color: #a39a9a;
+}
+
+section .main {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+section .main .searchbox {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+section .main .searchbox .search {
+  width: 98%;
+  padding: 13px;
+  padding-left: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+section .main .searchbox .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 12px 30px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+section .main .buttons {
+  margin-top: 20px;
+}
+section .main .buttons button {
+  margin: 0 5px;
+  padding: 12px 20px;
+  color: #555;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+section .main .buttons button:hover {
+  border: 1px solid #ccc;
+}
+section .main .lang {
+  margin-top: 20px;
+}
+
+section .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 10px;
+}
+section .footer .row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+section .footer .row ul {
+  display: flex;
+}
+section .footer .row ul li {
+  list-style: none;
+}
+section .footer .row ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 25px;
+}
